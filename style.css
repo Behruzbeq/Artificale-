@@ -164,7 +164,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 89px 0;
+    padding: 0 12px 89px 12px;
 }
 
 
@@ -172,7 +172,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0 89px  0;
+    padding: 0 12px 89px  12px;
 }
 
 .imgs:hover img {
@@ -183,6 +183,13 @@ header{
 .imgse{
 
 transition: 500ms;
+}
+
+.item_img{
+    img{
+        max-width: 725px;
+        width: 100%;
+    }
 }
 
 .item_text{
@@ -214,12 +221,13 @@ transition: 500ms;
 
 
 .cards_two{
-    width: 362px;
+    max-width: 362px;
     text-align: center;
     background: #FFFFFF33;
     padding: 40px 25px;
     border-radius: 10px;
     transition: 500ms;
+    margin-bottom: 15px;
     img{
         margin-bottom: 47px;
     }
@@ -408,6 +416,25 @@ transform: scale(0);
         transition: 500ms;
     }
 }
+.foot_twos{
+
+
+    h1{
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--text_white);
+        margin-bottom: 32px;
+        transition: 500ms;
+    }
+
+    p{
+        font-weight: 450px;
+        font-size: 14px;
+        color: var(--text_white);
+        margin-bottom: 20px;
+        transition: 500ms;
+    }
+}
 
 .foot_tre{
     display: flex;
@@ -536,4 +563,29 @@ footer{
 
 .v:hover{
     transform: scale(1.2) translateY(-10px) translateX(20px);
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: var(--text_white);
+    text-decoration: none;
+    font-weight: 600;
+    a{
+       transition: 500ms;
+    }
+}
+.nav_linke{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: var(--text_white);
+    text-decoration: none;
+    font-weight: 600;
+    a{
+       transition: 500ms;
+    }
 }
